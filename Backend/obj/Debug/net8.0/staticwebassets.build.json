@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "usnK247uHz+t971oWLBPWm1e87QTDZKnX11iIoeuC/E=",
+  "Source": "BookLibraryService",
+  "BasePath": "_content/BookLibraryService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
