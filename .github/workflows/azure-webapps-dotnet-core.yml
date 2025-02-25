@@ -56,13 +56,13 @@ jobs:
         run: dotnet build --configuration Release ./Backend/BookLibraryService.csproj
 
       - name: dotnet publish
-        run: dotnet publish -c Release ./Backend/BookLibraryService.csproj
+        run: dotnet publish -c Release ./Backend/BookLibraryService.csproj  -o ./Backend/publish
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/BookLibraryService.csproj
+          path: ./Backend/publish
 
   deploy:
     permissions:
