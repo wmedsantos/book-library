@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://localhost:7208/api/books';
+const API_URL = 'https://booklibrary-eugcaphkc3h3gmhq.brazilsouth-01.azurewebsites.net/api/books';
 
 class BookService {
     getAllBooks() {
